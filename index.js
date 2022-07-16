@@ -9,10 +9,18 @@ $('.Nav').click(function(){
 
 $(document).ready(function(){
     if(window.innerWidth < 576){
-      $('.Nav').removeClass('open');
-      $('.navbar-nav').removeClass("bg-white");
-    }
+        $('.Nav').removeClass('open');
+        $('.navbar-nav').removeClass("bg-white");
+      }
   });
+
+
+  $(window).resize(function(){
+    if(window.innerWidth < 576){
+        $('.Nav').removeClass('open');
+        $('.navbar-nav').removeClass("bg-white");
+      }
+});
 
 function formCheck(event) {
     
