@@ -14,11 +14,13 @@ $(document).ready(function(){
       }
   });
 
-
+  let w = window.innerWidth ;
   $(window).resize(function(){
-    if(window.innerWidth < 576){
+    
+    if(window.innerWidth > 576){
         $('.Nav').removeClass('open');
         $('.navbar-nav').removeClass("bg-white");
+        $('.navbar-collapse').removeClass("show");
       }
 });
 

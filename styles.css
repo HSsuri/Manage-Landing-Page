@@ -7,6 +7,7 @@
 body{
     font-family: "Be Vietnam", sans-serif;
     font-size: 16px;
+    min-width: 350px;
 }
 footer{
     background-color: hsl(233, 12%, 13%);
@@ -445,7 +446,7 @@ input[type="email"]{
     }
 }
 
-@media (max-width:575px){
+@media (max-width:576px){
 
     .top{
         background-image: url("images/bg-tablet-pattern.svg");
