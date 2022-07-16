@@ -354,9 +354,14 @@ input[type="email"]{
 }
 .ending-3{
     /* margin-left: 5%; */
-    width: 275px;
+    width: 285px;
 }
-
+.ending-3 form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 
 

@@ -5,6 +5,15 @@ $('.Nav').click(function(){
     $('.Nav').toggleClass("open");
     $('.navbar-nav').toggleClass("bg-white");
 });
+
+
+$(document).ready(function(){
+    if(window.innerWidth < 576){
+      $('.Nav').removeClass('open');
+      $('.navbar-nav').removeClass("bg-white");
+    }
+  });
+
 function formCheck(event) {
     
     for (let i = 0; i < formItem.length; i++) {
@@ -25,8 +34,8 @@ function formCheck(event) {
             
         } else {
             formItem[i].value = '';
-            formError[i].classList.toggle('-active');
-            formItem[i].classList.toggle('-error');
+            formError[i].classList.remove('-active');
+            formItem[i].classList.remove('-error');
         }
 
     }
