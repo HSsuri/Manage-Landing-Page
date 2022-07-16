@@ -18,14 +18,14 @@ footer{
     margin-bottom: 3%;
 }
 .top{
-    background-image: url("/manage-landing-page-master/images/bg-tablet-pattern.svg");
+    background-image: url("images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
     background-position-x: 120%;
     background-position-y: 230%;
     background-size: 55% ;
 }
 .back{
-    background-image: url("/manage-landing-page-master/images/bg-tablet-pattern.svg");
+    background-image: url("images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
     background-position-x: -90%;
     background-position-y: 115%;
@@ -285,7 +285,7 @@ margin-bottom:6% ;
 
 .end-sec{
     color: hsl(0, 0%, 98%);
-    background-image: url("/manage-landing-page-master/images/bg-simplify-section-desktop.svg");
+    background-image: url("images/bg-simplify-section-desktop.svg");
     background-position-y: bottom;
     background-position-x: -80%;
     background-repeat: no-repeat;
@@ -364,7 +364,7 @@ input[type="email"]{
 @media (max-width:685px)
 {
     .top{
-        background-image: url(/manage-landing-page-master/images/bg-tablet-pattern.svg);
+        background-image: url("images/bg-tablet-pattern.svg");
         background-repeat: no-repeat;
         background-position-x: -70%;
         background-position-y: -250%;
@@ -372,7 +372,7 @@ input[type="email"]{
     }
 
     .back{
-        background-image: url("/manage-landing-page-master/images/bg-tablet-pattern.svg");
+        background-image: url("images/bg-tablet-pattern.svg");
         background-repeat: no-repeat;
         background-position-x: -70%;
         background-position-y: 55%;
@@ -409,7 +409,7 @@ input[type="email"]{
         flex-direction: column;
         padding: 5% 6% ;
         text-align: center;
-        background-image: url("/manage-landing-page-master/images/bg-simplify-section-mobile.svg");
+        background-image: url("images/bg-simplify-section-mobile.svg");
         background-position-y: bottom;
         background-position-x: left;
         background-size: 140%;
@@ -443,7 +443,7 @@ input[type="email"]{
 @media (max-width:575px){
 
     .top{
-        background-image: url(/manage-landing-page-master/images/bg-tablet-pattern.svg);
+        background-image: url("images/bg-tablet-pattern.svg");
         background-repeat: no-repeat;
         background-repeat: repeat-y;
         background-position-x: 175%;
@@ -527,7 +527,7 @@ input[type="email"]{
 @media (max-width:832px) and (min-width:685px){
 
     .back{
-        background-image: url("/manage-landing-page-master/images/bg-tablet-pattern.svg");
+        background-image: url("images/bg-tablet-pattern.svg");
         background-repeat: no-repeat;
         background-position-x: -80%;
         background-position-y: 75%;
@@ -596,7 +596,7 @@ table .left{
 }
 @media (max-width:460px) {
     .top{
-        background-image: url(/manage-landing-page-master/images/bg-tablet-pattern.svg);
+        background-image: url("images/bg-tablet-pattern.svg");
         background-repeat: no-repeat;
         background-repeat: repeat-y;
         background-position-x: -125%;
