@@ -8,6 +8,8 @@ $('.Nav').click(function () {
     $("input[type='email']").attr('disabled',function(_,attr){
         return !attr;
     });
+    $('table .nav-link').toggleClass("disabled");
+    $('body').toggleClass('lock-scroll');
 });
 
 
@@ -15,8 +17,11 @@ $(document).ready(function () {
     
         $('.Nav').removeClass('open');
         $('.navbar-nav').removeClass("bg-white");
+        $('.navbar-collapse').removeClass("show");
         $('.btn').removeClass("disabled");
         $("input[type='email']").attr('disabled',false);
+        $('table .nav-link').removeClass("disabled");
+        $('body').removeClass('lock-scroll');
     
 });
 
@@ -29,6 +34,8 @@ $(window).resize(function () {
         $('.navbar-collapse').removeClass("show");
         $('.btn').removeClass("disabled");
         $("input[type='email']").attr('disabled',false);
+        $('table .nav-link').removeClass("disabled");
+        $('body').removeClass('lock-scroll');
 
     }
 });

@@ -97,6 +97,11 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
+.lock-scroll {
+    overflow: hidden;
+}
+
+
 
 .open::before {
     bottom: -5px;
@@ -384,6 +389,11 @@ table .left {
     opacity: 0.85;
 }
 
+table .nav-link.disabled{
+    color:rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    cursor: default;
+}
 .end img:hover {
     filter: invert(44%) sepia(40%) saturate(1886%) hue-rotate(337deg) brightness(99%) contrast(91%);
     ;
@@ -543,6 +553,7 @@ input:disabled{
 
     .top .nav-link{
         padding-top:1rem ;
+        padding-bottom:1rem ;
         padding-right: 1rem;
         font-size: 16px;
         font-weight: 700;
